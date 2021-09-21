@@ -1,0 +1,31 @@
+h2 {
+    margin-left: 60px;
+    margin-top: 30px;
+    color: coral
+}
+
+.monthly_rewards {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+
+  }
+  
+  .monthly_rewards td, .monthly_rewards th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .monthly_rewards tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .monthly_rewards tr:hover {background-color: #ddd;}
+  
+  .monthly_rewards th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: coral;
+    color: white;
+  }

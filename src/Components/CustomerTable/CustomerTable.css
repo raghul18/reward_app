@@ -1,0 +1,34 @@
+h2 {
+    margin-left: 60px;
+    margin-top: 30px;
+    color: coral
+}
+.customers {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+
+  }
+  
+  .customers td, .customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  td:hover {
+      cursor: pointer
+  }
+  
+  .customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .customers tr:hover {background-color: #ddd;}
+  
+  .customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: coral;
+    color: white;
+  }
